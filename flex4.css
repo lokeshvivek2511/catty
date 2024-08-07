@@ -26,6 +26,8 @@
     flex-direction: column;
     justify-content: center;
      aling-item: center;
+    position: relative;
+    left: 20%;
 
 }
 .nav{

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+        .top{
+            
+            height: 1200px;
+            width: 900px;
+            border: 5px solid rgb(22, 21, 21);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border-radius: 35px; */
+            
+        }
+        .con{
+            height: 95%;
+            width: 95%;
+            display: grid;
+            grid-template-columns: repeat(9,1fr);
+            grid-template-rows: repeat(14,1fr);
+            
+
+        }
+        .con div{
+            border-radius: 10px;
+            background-color: rgb(238, 177, 108);
+            margin: 5px;
+            display: grid;
+            place-content: center;
+        }
+        .it1{
+            grid-area: 1/1/2/10;
+        }
+        .it2{
+            grid-area: 2/1/6/4;
+        }
+        .it3{
+            grid-area: 2/4/6/7;
+        }
+        .it4{
+            grid-area: 2/7/8/10;
+        }
+        .it5{
+            grid-area: 6/1/8/3;
+        }
+        .it6{
+            grid-area: 6/3/8/5;
+        }
+        .it7{
+            grid-area: 6/5/8/7;
+        }
+        .it8{
+            grid-area: 8/1/11/4;
+        }
+        .it9{
+            grid-area: 8/4/11/6;
+        }
+        .it10{
+            grid-area: 8/6/11/8;
+        }
+        .it11{
+            grid-area: 8/8/11/10;
+        }
+        .it12{
+            grid-area: 11/1/12/10;
+        }
+        .it13{
+            grid-area: 12/1/15/7;
+        }
+        .it14{
+            grid-area: 12/7/15/10;
+        }
+        </style>
+</head>
+<body>
+    <div class="top">
+    <div class="con">
+        <div class="it1">it1</div>
+        <div class="it2">it2</div>
+        <div class="it3">it3</div>
+        <div class="it4">it4</div>
+        <div class="it5">it5</div>
+        <div class="it6">it6</div>
+        <div class="it7">it7</div>
+        <div class="it8">it8</div>
+        <div class="it9">it9</div>
+        <div class="it10">it10</div>
+        <div class="it11">it11</div>
+        <div class="it12">it12</div>
+        <div class="it13">it13</div>
+        <div class="it14">it14</div>
+
+    </div>
+</div>
+</body>
+</html>
